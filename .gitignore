@@ -1,0 +1,49 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# ─── Runtime / temp audio files ───────────────────────────────────────────────
+*.wav
+*.mp3
+*.raw
+
+# ─── faster-whisper model cache ───────────────────────────────────────────────
+# (downloaded automatically on first run — do not commit ~150 MB of weights)
+models/
+*.bin
+*.pt
+*.gguf
+
+# ─── Ollama (local, not part of repo) ─────────────────────────────────────────
+.ollama/
+
+# ─── Arduino / ESP32 build artifacts ─────────────────────────────────────────
+build/
+*.elf
+*.map
+*.hex
+export/
+
+# ─── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── OS temp / misc ───────────────────────────────────────────────────────────
+*.tmp
+*.swp
+*.bak
+.claude/
